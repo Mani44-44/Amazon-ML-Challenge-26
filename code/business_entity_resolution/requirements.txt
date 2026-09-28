@@ -1,0 +1,16 @@
+# Python 3.11. All packages are permissively licensed (MIT / BSD / Apache-2.0 / ISC).
+# The CUDA build of torch comes from the PyTorch index (a CUDA 12.x GPU driver is needed):
+--extra-index-url https://download.pytorch.org/whl/cu128
+polars==1.44.2
+pyarrow==25.0.1
+numpy==2.4.4
+scipy==1.17.1
+scikit-learn==1.9.0
+lightgbm==4.7.0
+rapidfuzz==3.14.6
+anyascii==0.3.3
+torch==2.11.0+cu128
+transformers==5.17.0
+tokenizers==0.23.2
+safetensors==0.8.0
+huggingface-hub==1.33.0

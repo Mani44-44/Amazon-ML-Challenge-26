@@ -1,0 +1,15 @@
+# Whitelist: only code, documentation and the final matching results are versioned.
+# The challenge dataset, problem-statement PDFs, intermediates (work/), models and the
+# 690 MB candidate file are deliberately excluded.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/PLAN.md
+!/Documentation_template.md
+!/code/
+!/output/
+/output/*
+!/output/matching_results.tsv
+__pycache__/
+*.pyc
